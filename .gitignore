@@ -1,0 +1,85 @@
+# Archivos de documentación específicos a excluir
+CONFIGURACION_DUAL.md
+VERIFICACION_COMPLETA_REQUISITOS.md
+VERIFICACION_EXHAUSTIVA_REQUISITOS.md
+FLUJO_PRUEBAS_EXHAUSTIVO.md
+
+# Archivos compilados
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE - Eclipse
+.classpath
+.factorypath
+.project
+.settings/
+bin/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE - VS Code
+.vscode/
+
+# IDE - NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Sistema Operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Archivos de configuración local
+application-local.yml
+application-local.properties
+.env
+.env.local
+
+# Archivos de base de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de Docker (opcional, si no quieres subir volúmenes)
+# docker-compose.override.yml
+
